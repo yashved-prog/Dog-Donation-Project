@@ -1,0 +1,110 @@
+#dogcare-heading{
+    background-color: rgb(88, 130, 190);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    position: sticky;
+    top:0px;
+    padding: 10px;
+    width:100%;
+    opacity: 0.85;
+    text-align: center;
+    z-index: 100;
+    overflow: visible;
+    
+}
+a{
+    border-color: black;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+img{
+    padding: 25px
+    ;
+    height: 300px;
+
+}
+*{
+    scroll-behavior: smooth;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.donate-btn{
+    background-color: lightgreen;
+    padding: 15px 20px;
+    margin-left: 50%;
+    
+}
+.donate-btn:hover{
+    background-color: green;
+}
+.contact-us{
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px 10px;
+    margin: 5px 0px;
+}
+button{
+    color: lightgreen;
+}
+footer{
+    background-color:rgb(52, 55, 59);
+    color: white;
+padding:5px 5px 5px 5px;
+margin: 0;
+}
+#Form{
+    
+    width: 400px;
+font-size: 20px;
+text-align: center;
+padding:20px;
+margin:0 auto;
+}
+#Form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#Form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.stickysection{
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+}
+.sticky-heading{
+    background-color: rgb(88, 130, 190);
+}
+.nav li{
+    color: azure;
+    display: inline-block;
+    width:80px
+    ;
+
+}
+.nav{
+    position: fixed;
+    top:15px;
+    color: cornflowerblue;
+    
+}
